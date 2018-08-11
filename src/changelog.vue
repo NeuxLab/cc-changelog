@@ -1,17 +1,14 @@
 <template>
   <div class="changelog ui card cc-item">
     <div class="cc-item-header content">
-      <div class="header">1.0.3 更新日志</div>
+      <div class="header">1.0.5 更新日志</div>
     </div>
     <div class="cc-item-content content cc-content">
       <div class="cc-text">
         <dl>
-          <dd>通知窗口增加置顶功能，快捷键 <kbd>空格</kbd>
-          </dd>
-          <dd>通知窗口增加 Pin 功能，方便快速标记，快捷键 <kbd>!</kbd>
-          </dd>
-          <dd>列表页面可以对条目按 <kbd>空格</kbd> 进行查看编辑</dd>
-          <dd>修复与其他粘贴工具的冲突问题 </dd>
+          <dd>发布入门操作视频，请点击前往<a href='https://ccyixia.com' target="_blank">官网</a>查看</dd>
+          <dd>为通知窗口增加右键菜单，包含 <code>置顶</code> <code>Pin</code> 等功能</dd>
+          <dd>修复自动更新没有默认开启的 bug </dd>
           <dd>调整样式 & 修复其他 bug</dd>
         </dl>
       </div>
@@ -47,5 +44,10 @@ export default {
     line-height: 1.2;
   }
 
+  a {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+  }
 }
 </style>
