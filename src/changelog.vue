@@ -1,15 +1,15 @@
 <template>
   <div class="changelog ui card cc-item">
     <div class="cc-item-header content">
-      <div class="header">1.0.5 更新日志</div>
+      <div class="header">1.0.6 更新日志</div>
     </div>
     <div class="cc-item-content content cc-content">
       <div class="cc-text">
         <dl>
-          <dd>发布入门操作视频，请点击前往<a href='https://ccyixia.com' target="_blank">官网</a>查看</dd>
-          <dd>为通知窗口增加右键菜单，包含 <code>置顶</code> <code>Pin</code> 等功能</dd>
-          <dd>修复自动更新没有默认开启的 bug </dd>
-          <dd>调整样式 & 修复其他 bug</dd>
+          <dd>增加窗口自动隐藏功能，点击空白处即可隐藏，无需手动关闭</dd>
+          <dd>优化内存占用，节省50% </dd>
+          <dd>修复 tab 拖动调整顺序的 bug</dd>
+          <dd>修复其他 bug</dd>
         </dl>
       </div>
     </div>
