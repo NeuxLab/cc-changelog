@@ -1,14 +1,15 @@
 <template>
   <div class="changelog ui card cc-item">
     <div class="cc-item-header content">
-      <div class="header">1.0.6 更新日志</div>
+      <div class="header">1.1.0 更新日志</div>
     </div>
     <div class="cc-item-content content cc-content">
       <div class="cc-text">
         <dl>
-          <dd>增加窗口自动隐藏功能，点击空白处即可隐藏，无需手动关闭</dd>
-          <dd>优化内存占用，节省50% </dd>
-          <dd>修复 tab 拖动调整顺序的 bug</dd>
+          <dd>增加修改本地数据目录的选项</dd>
+          <dd>修复 Word 和 Excel 的误触发问题</dd>
+          <dd>忽略来自常见密码管理软件的内容</dd>
+          <dd>增加开启测试版更新的选项</dd>
           <dd>修复其他 bug</dd>
         </dl>
       </div>
