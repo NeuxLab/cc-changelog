@@ -1,7 +1,7 @@
 <template>
   <div class="changelog ui card cc-item">
     <div class="cc-item-header content">
-      <div class="header">1.1.0 更新日志</div>
+      <div class="header">1.1.1 更新日志</div>
     </div>
     <div class="cc-item-content content cc-content">
       <div class="cc-text">
